@@ -40,7 +40,7 @@ project(MyProject
 	VERSION 1.0
 	LANGUAGES C
 )
-add_executable(MyProjectExecutable "main.c")
+add_executable(MyProjectExecutable "Main.c")
 
 # Include CMake Glad and customize its properties
 include("Dependencies/CMakeGlad/CMakeLists.txt")
